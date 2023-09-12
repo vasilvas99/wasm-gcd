@@ -1,0 +1,14 @@
+[package]
+name = "wasm-gcd"
+version = "0.1.0"
+edition = "2021"
+description = "A cli greatest common divisor calculator using WASM/WASI"
+authors = ["Vasil Ivanov"]
+license = "Apache-2.0"
+rust-version = "1.68.0"
+readme = "./README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "=4.0.30", features = ["derive"]}
